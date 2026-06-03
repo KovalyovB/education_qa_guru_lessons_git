@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 public class JUnitExampleTests {
     @BeforeAll
     static void startup() {
-        System.out.println("Startup tests");
+        System.out.println("Startup testsNEW");
     }
 
     @AfterAll
