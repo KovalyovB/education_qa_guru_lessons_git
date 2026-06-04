@@ -14,7 +14,7 @@ public class JUnitExampleTests {
     }
 
     @AfterAll
-    static void teardowm() {System.out.println("Finish Tests");}
+    static void teardowm() {System.out.println("Tests Ended!");}
 
     @BeforeEach
     void startBrowser() {
