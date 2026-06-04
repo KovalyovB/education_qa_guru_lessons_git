@@ -12,10 +12,7 @@ public class JUnitExampleTests {
     static void startup() {
         System.out.println("Startup testsNEW");
     }
-
-    @AfterAll
-    static void teardowm() {System.out.println("Tests Ended!");}
-
+    
     @BeforeEach
     void startBrowser() {
         System.out.println("- browser has started");
